@@ -1,0 +1,27 @@
+{
+	"root": false,
+	/*
+   See https://biomejs.dev/reference/configuration/ for the full reference
+  */
+	"$schema": "https://biomejs.dev/schemas/2.1.2/schema.json",
+	"vcs": {
+		"enabled": true,
+		"clientKind": "git",
+		"useIgnoreFile": true,
+		"defaultBranch": "main"
+	},
+	"files": {
+		"ignoreUnknown": true,
+		"includes": ["src/**"]
+	},
+	"linter": {
+		"enabled": true,
+		"rules": {
+      "recommended": false,
+			"nursery": {
+        "noBitwiseOperators": "error",
+        "noFloatingPromises": "error"
+			}
+		}
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"extends": ["./biome-config-dir/biome.jsonc"],
+  "$schema": "https://biomejs.dev/schemas/2.1.2/schema.json",
+  // noFloatingPromises works when applied at the root biome config, but not at a non-root config
+  "linter": {
+    "rules": {
+      "nursery": {
+        "noFloatingPromises": "error"
+      }
+    }
+  }
+}

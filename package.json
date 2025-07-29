@@ -1,4 +1,11 @@
 {
   "name": "20250714-biome-ignored-nofloatingpromises-nursery",
-  "packageManager": "yarn@4.9.2"
+  "packageManager": "yarn@4.9.2",
+  "scripts": {
+    "lint": "biome lint"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.1.2",
+    "typescript": "^5.8.3"
+  }
 }
