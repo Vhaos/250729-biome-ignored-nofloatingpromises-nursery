@@ -83,7 +83,7 @@ lint ━━━━━━━━━━━━━━━━━━━━━━━━━
 $ yarn biome rage --linter
 
 CLI:
-  Version:                      2.1.2
+  Version:                      2.1.3
   Color support:                true
 
 Platform:
